@@ -119,13 +119,13 @@ copy of these implementation scripts as well as the scripts and tools
 defining the database. Solid lines refer to transfer of data. Dashed
 lines refer to transfer of scripts/code.**
 
-<img src="../DIAGRAMS/NWOS_DBDIAG_SUR.svg" width="600px" style="display: block; margin: auto;" />
+<img src="NWOS_DBDIAG_SUR.svg" width="600px" style="display: block; margin: auto;" />
 
 **Figure 2. Relationships among FS\_NWOS survey tables. Primary keys (in
 underline), foreign keys (identified with a tilde) and a subset of
 additional fields are shown.**
 
-<img src="../DIAGRAMS/NWOS_DBDIAG_ADM.svg" width="600px" style="display: block; margin: auto;" />
+<img src="NWOS_DBDIAG_ADM.svg" width="600px" style="display: block; margin: auto;" />
 
 **Figure 3. Relationships among FS\_NWOS administrative tables. Primary
 keys (in underline), foreign keys (identified with a tilde) and a subset
