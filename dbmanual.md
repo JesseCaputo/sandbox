@@ -107,7 +107,7 @@ ownerships, or even public ownerships may be undertaken. The NWOS
 database is being developed as a common repository for all surveys
 falling under the NWOS (or NLS) banner.
 
-<img src="../DIAGRAMS/NWOS_DBDIAG_ECOSYSTEM.svg" width="600px" style="display: block; margin: auto;" />
+<img src="NWOS_DBDIAG_ECOSYSTEM.svg" width="600px" style="display: block; margin: auto;" />
 
 **Figure 1. Relationships among elements in the NWOS database
 “ecosystem”. Data is accessed directly through a database client
