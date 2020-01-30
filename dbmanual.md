@@ -107,37 +107,31 @@ ownerships, or even public ownerships may be undertaken. The NWOS
 database is being developed as a common repository for all surveys
 falling under the NWOS (or NLS) banner.
 
-<div class="figure">
+<img src="../DIAGRAMS/NWOS_DBDIAG_ECOSYSTEM.svg" width="600px" style="display: block; margin: auto;" />
 
-<p class="caption">
+**Figure 1. Relationships among elements in the NWOS database
+“ecosystem”. Data is accessed directly through a database client
+(e.g. PL/SQL, SQL\*Plus) or by using the ‘nwos’ R package. The database
+is updated in turn through the use of the same package, through the
+client, or through implementation scripts stored on the Forest Service
+network. A repository on the internal Forest Service GitHub contains a
+copy of these implementation scripts as well as the scripts and tools
+defining the database. Solid lines refer to transfer of data. Dashed
+lines refer to transfer of scripts/code.**
 
-Figure 1. Relationships among elements in the NWOS database “ecosystem”.
-Data is accessed directly through a database client (e.g. PL/SQL,
-SQL\*Plus) or by using the ‘nwos’ R package. The database is updated in
-turn through the use of the same package, through the client, or through
-implementation scripts stored on the Forest Service network. A
-repository on the internal Forest Service GitHub contains a copy of
-these implementation scripts as well as the scripts and tools defining
-the database. Solid lines refer to transfer of data. Dashed lines refer
-to transfer of scripts/code.
+<img src="../DIAGRAMS/NWOS_DBDIAG_SUR.svg" width="600px" style="display: block; margin: auto;" />
 
-</p>
+**Figure 2. Relationships among FS\_NWOS survey tables. Primary keys (in
+underline), foreign keys (identified with a tilde) and a subset of
+additional fields are shown.**
 
-</div>
+<img src="../DIAGRAMS/NWOS_DBDIAG_ADM.svg" width="600px" style="display: block; margin: auto;" />
 
-<div class="figure">
-
-<p class="caption">
-
-Figure 3. Relationships among FS\_NWOS administrative tables. Primary
+**Figure 3. Relationships among FS\_NWOS administrative tables. Primary
 keys (in underline), foreign keys (identified with a tilde) and a subset
 of additional fields are shown. The MODIFICATIONS and NOTES tables can
 be joined to any other tables (including survey tables) through the
-RECORD and TABLE\_CN fields.
-
-</p>
-
-</div>
+RECORD and TABLE\_CN fields.**
 
 1.  A survey ‘module’ is also referred to more generally as a ‘survey’,
     or as a ‘study’ within portions of the NWOS database and associated
