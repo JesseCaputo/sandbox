@@ -1,3 +1,3 @@
 # My GitHub Sandbox
 
-Here is the [manual](MANUAL/nwos_db_manual.md)
+Here is the [manual](MANUAL/nwos-db-manual.md)
